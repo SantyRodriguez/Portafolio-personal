@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E0D5C9;
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+header {
+    background-color: #161514;
+    width: 100%;
+}
+
+.navegador {
+    width: 100vh;
+    height: 100%;
+    position: relative;
+}
+
+.logo {
+    width: 50px;
+
+}
+
+/*@media (min-width:720px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 13px;
+        letter-spacing: 0.325px;
+        line-height: 1.53;
+        background-color: #E0D5C9;
+    }
+
+
+
+        .menu {
+        width: 100%;
+        height: 100%;
+        list-style: none;
+        padding: 15px 0;
+        font-weight: 600;
+
+    }
+
+
+    .navegador {
+
+        background-color: #161514;
+        position: fixed;
+        min-height: 70px;
+        top: 10px;
+        width: 100%;
+        z-index: 1030;
+        border-radius: 100px;
+        color: #E0D5C9;
+
+    }
+
+    .contenedorv {
+        width: 95%;
+        height: 70px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px 0;
+
+
+    }
+
+    .logo {
+        width: 50px;
+        height: 50px;
+        border-radius: 150px;
+        box-shadow: 0px 0px 5px black;
+        float: left;
+    }
+
+    .na_l {
+        float: right;
+        font-weight: bold;
+    }
+
+    .nav ::after {
+
+        display: block;
+        content: '';
+        width: 0%;
+        height: 1px;
+        transition: 0.5s;
+        background-color: #E0D5C9;
+        margin: auto;
+        margin-top: 1px;
+    }
+
+    .nav :hover::after {
+        width: 100%;
+
+    }
+
+    .nav {
+        display: inline-block;
+        margin-left: 50px;
+        position: relative;
+
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+
+    }
+
+    .portada {
+        width: 95%;
+        height: 100vh;
+        background: url(yo.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 750px;
+        margin-left: auto;
+        margin-right: auto;
+
+
+
+    }
+
+    .portada::before {
+        position: absolute;
+        content: "";
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.8);
+    }
+
+    .animacion {
+        position: relative;
+        top: 35vh;
+
+
+    }
+
+    .pres {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 500;
+        font-size: 2rem;
+        line-height: 24px;
+        color: #000000;
+        letter-spacing: 1px;
+
+    }
+
+    .txts1 {
+        color: #E0D5C9;
+        font-size: 5rem;
+        font-weight: 600;
+
+
+    }
+
+    .prof {
+        display: flex;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 500;
+        font-size: 3rem;
+        line-height: 90px;
+
+
+    }
+
+    .stat {
+        color: #000000;
+    }
+
+    .prof .profesiones {
+        margin-left: 15px;
+        line-height: 90px;
+        height: 90px;
+        overflow: hidden;
+
+
+    }
+
+    .profesiones li {
+        position: relative;
+        list-style: none;
+        top: 0;
+        animation: slide 12s steps(4) infinite;
+        color: #E0D5C9;
+
+    }
+
+    @keyframes slide {
+        100% {
+            top: -360px;
+        }
+    }
+
+    .profesiones li::after {
+        position: absolute;
+        content: '';
+        left: 0;
+        width: 100%;
+        height: 90px;
+        border-left: 2px solid #E0D5C9;
+        animation: typing 3s steps(21) infinite;
+        background-color: #2D2B28;
+
+    }
+
+    @keyframes typing {
+
+        40%,
+        60% {
+            left: calc(100% + 30px);
+        }
+
+        100% {
+            left: 0;
+        }
+
+    }
+
+}
