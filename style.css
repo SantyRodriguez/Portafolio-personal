@@ -1,3 +1,4 @@
+/*
 * {
     margin: 0;
     padding: 0;
@@ -6,28 +7,44 @@
 
 body {
     background-color: #E0D5C9;
-    width: 90%;
-    margin: 0 auto;
+    font-family: 'Quicksand', sans-serif;
+
+
 
 }
 
 header {
     background-color: #161514;
-    width: 100%;
 }
 
-.navegador {
-    width: 100vh;
-    height: 100%;
-    position: relative;
+.container {}
+
+.contenedorv {
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    max-width: 1200px;
+
 }
+
+.todo {}
+
+.navegador {}
 
 .logo {
     width: 50px;
 
 }
 
-/*@media (min-width:720px) {
+.menu {}
+
+.nav {
+    list-style: none;
+    text-decoration: none;
+}
+*/
+
+@media (min-width:750px) {
     * {
         margin: 0;
         padding: 0;
@@ -42,52 +59,63 @@ header {
         background-color: #E0D5C9;
     }
 
-
-
-        .menu {
-        width: 100%;
-        height: 100%;
-        list-style: none;
-        padding: 15px 0;
-        font-weight: 600;
-
+    .container {
+        width: 98%;
+        margin: 0 auto;
     }
 
-
-    .navegador {
-
-        background-color: #161514;
+    header {
         position: fixed;
-        min-height: 70px;
-        top: 10px;
-        width: 100%;
+        background-color: #161514;
+        margin-top: 5px;
+        height: 60px;
+        width: 98%;
         z-index: 1030;
         border-radius: 100px;
         color: #E0D5C9;
-
     }
 
     .contenedorv {
+        position: relative;
+    }
+
+    .todo {
+        position: relative;
         width: 95%;
-        height: 70px;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 10px 0;
+        margin: 0 auto;
 
 
     }
 
     .logo {
-        width: 50px;
-        height: 50px;
+        float: left;
+        width: 45px;
+        height: 45px;
+        margin: 7.5px 0;
         border-radius: 150px;
         box-shadow: 0px 0px 5px black;
-        float: left;
+
     }
 
-    .na_l {
+    .menu {
+
+        list-style: none;
+        font-weight: 600;
         float: right;
-        font-weight: bold;
+        margin: 19.56px 0;
+
+
+    }
+
+    .icon {
+        float: right;
+    }
+
+    .nav {
+        display: inline-block;
+        padding-left: 50px;
+        position: relative;
+
     }
 
     .nav ::after {
@@ -107,13 +135,6 @@ header {
 
     }
 
-    .nav {
-        display: inline-block;
-        margin-left: 50px;
-        position: relative;
-
-    }
-
     a {
         text-decoration: none;
         color: inherit;
@@ -121,14 +142,8 @@ header {
     }
 
     .portada {
-        width: 95%;
+
         height: 100vh;
-        background: url(yo.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: 750px;
-        margin-left: auto;
-        margin-right: auto;
 
 
 
@@ -233,3 +248,5 @@ header {
     }
 
 }
+
+@media (min-width: 970px) {}
