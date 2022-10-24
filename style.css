@@ -60,16 +60,16 @@ header {
     }
 
     .container {
-        width: 98%;
+        width: 100%;
         margin: 0 auto;
     }
 
     header {
         position: fixed;
         background-color: #161514;
-        margin-top: 5px;
+        margin-top: 10px;
         height: 60px;
-        width: 98%;
+        width: 100%;
         z-index: 1030;
         border-radius: 100px;
         color: #E0D5C9;
@@ -142,11 +142,13 @@ header {
     }
 
     .portada {
-
+        width: 100%;
         height: 100vh;
 
+    }
 
-
+    .fondo {
+        display: none;
     }
 
     .portada::before {
@@ -249,4 +251,17 @@ header {
 
 }
 
-@media (min-width: 970px) {}
+@media (min-width: 1200px) {
+
+    .portada {
+        width: 100%;
+        height: 100vh;
+        background-image: url(yo.png);
+        background-size: 400px;
+        background-repeat: no-repeat;
+        background-position-y: bottom;
+        background-position-x: right;
+
+    }
+
+}
