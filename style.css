@@ -142,8 +142,9 @@ header {
     }
 
     .portada {
-        width: 100%;
+        width: 90%;
         height: 100vh;
+        margin: 0 auto;
 
     }
 
@@ -254,8 +255,9 @@ header {
 @media (min-width: 1200px) {
 
     .portada {
-        width: 100%;
+        width: 97%;
         height: 100vh;
+        margin: 0 auto;
         background-image: url(yo.png);
         background-size: 400px;
         background-repeat: no-repeat;
